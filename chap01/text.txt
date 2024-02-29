@@ -1,0 +1,12 @@
+Image   classification  can perform some pretty amazing feats,
+  but    a large drawback of many image classification applications is that
+the model can only detect one class per image. With an object detection model,
+not only can you   classify multiple classes in one image,
+but you can specify exactly where that object is in an image with a bounding box framing the object.
+The TensorFlow Models GitHub repository has a large variety of pre-trained
+models for   various machine learning tasks, and one excellent resource is
+their object detection API. The object detection API makes it extremely
+easy to train your own object detection model for a large variety of
+different applications. Whether you need a high-speed model to work on live stream
+high-frames-per-second applications or high-accuracy desktop models,
+the API makes it easy to train and export a model.

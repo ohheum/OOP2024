@@ -1,0 +1,10 @@
+When we define a variable
+without an initializer,
+the variable is default initialized. Such variables are given the “default” value.
+What that default value is
+
+
+depends on
+the type of the
+variable and may also depend on
+where the variable is defined.

@@ -1,0 +1,9 @@
+When we define a variable
+without an initializer,
+the variable is default initialized. Such variables are given the “default” value.
+What that 123 default value is
+depends on
+the type of the --"here?><>
+variable and may also depend on
+where the variable is defined.
+
