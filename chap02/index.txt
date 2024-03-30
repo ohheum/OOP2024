@@ -1,0 +1,180 @@
+Image
+0 
+classification
+0 1 
+can
+0 2 3 4 
+perform
+0 
+some
+0 
+pretty
+0 
+amazing
+0 
+feats,
+0 
+but
+1 4 
+a
+1 4 5 8 9 11 
+large
+1 5 8 
+drawback
+1 
+of
+1 5 8 
+many
+1 
+image
+1 4 
+applications
+1 10 
+is
+1 4 6 
+that
+1 4 
+the
+2 4 11 
+model
+2 8 9 
+only
+2 3 
+detect
+2 
+one
+2 3 6 
+class
+2 
+per
+2 
+image.
+2 
+With
+2 
+an
+2 4 
+object
+2 4 7 7 8 
+detection
+2 7 7 8 
+model,
+2 
+not
+3 
+you
+3 4 9 
+classify
+3 
+multiple
+3 
+classes
+3 
+in
+3 4 
+image,
+3 
+specify
+4 
+exactly
+4 
+where
+4 
+with
+4 
+bounding
+4 
+box
+4 
+framing
+4 
+object.
+4 
+The
+5 7 
+TensorFlow
+5 
+Models
+5 
+GitHub
+5 
+repository
+5 
+has
+5 
+variety
+5 8 
+pre-trained
+5 
+models
+6 
+for
+6 8 
+various
+6 
+machine
+6 
+learning
+6 
+tasks,
+6 
+and
+6 11 
+excellent
+6 
+resource
+6 
+their
+7 
+API.
+7 
+API
+7 11 
+makes
+7 11 
+it
+7 11 
+extremely
+7 
+easy
+8 11 
+to
+8 9 11 
+train
+8 11 
+your
+8 
+own
+8 
+different
+9 
+applications.
+9 
+Whether
+9 
+need
+9 
+high-speed
+9 
+work
+9 
+on
+9 
+live
+9 
+stream
+9 
+high-frames-per-second
+10 
+or
+10 
+high-accuracy
+10 
+desktop
+10 
+models,
+10 
+export
+11 
+model.
+11 
