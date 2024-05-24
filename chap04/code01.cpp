@@ -17,16 +17,6 @@ public:
     double getRamSize()   { return ramSize; }
     double getProcessorSpeed()   { return processorSpeed; }
     int getDiskSize()   { return diskSize; }
-
-    virtual string toString() {
-        string result = 	"Manufacturer: " + manufacturer +
-                           "\nCPU: " + processor +
-                           "\nRAM: " + to_string(ramSize) + " megabytes" +
-                           "\nDisk: " + to_string(diskSize) + " gigabytes" +
-                           "\nProcessor speed: " + to_string(processorSpeed) +
-                           " gigahertz";
-        return result;
-    }
 };
 
 
@@ -34,13 +24,6 @@ class Notebook: public Computer {
 public:
     double screenSize;
     double weight;
-
-    string toString() override {
-        string result = Computer::toString() +
-                        "\nScreen size: " + to_string(screenSize) + " inches" +
-                        "\nWeight: " + to_string(weight) + " pounds";
-        return result;
-    }
 
     double getScreenSize() {
         return screenSize;
