@@ -4,7 +4,6 @@ using namespace std;
 
 class Computer {
 private:
-
     string processor;
     int ramSize;
     int diskSize;
@@ -20,16 +19,6 @@ public:
     double getRamSize()   { return ramSize; }
     double getProcessorSpeed()   { return processorSpeed; }
     int getDiskSize()   { return diskSize; }
-
-    virtual string toString() {
-        string result = 	"Manufacturer: " + manufacturer +
-                           "\nCPU: " + processor +
-                           "\nRAM: " + to_string(ramSize) + " megabytes" +
-                           "\nDisk: " + to_string(diskSize) + " gigabytes" +
-                           "\nProcessor speed: " + to_string(processorSpeed) +
-                           " gigahertz";
-        return result;
-    }
 };
 
 class Notebook: public Computer {
